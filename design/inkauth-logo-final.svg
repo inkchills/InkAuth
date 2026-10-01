@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-360 -360 720 720" width="720" height="720">
+  <title>InkAuth logo — closed ink-drop shield with keyhole, countdown ring behind</title>
+  <!-- F3 final: closed shield (no breach) + thin outer ring with a 32-degree gap at top-right -->
+  <path d="M 114.3 -282.8 A 305 305 0 1 0 246.7 -179.3"
+        fill="none" stroke="#1B2A4A" stroke-width="14" stroke-linecap="round"/>
+  <g transform="scale(0.92)">
+    <path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z"
+          fill="none" stroke="#1B2A4A" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+    <g fill="#1B2A4A">
+      <circle cx="0" cy="-60" r="55"/>
+      <path d="M -26 -12 L 26 -12 L 44 110 L -44 110 Z"/>
+    </g>
+  </g>
+</svg>

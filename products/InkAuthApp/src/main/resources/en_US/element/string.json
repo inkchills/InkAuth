@@ -1,0 +1,224 @@
+{
+    "string": [
+        {
+            "name": "module_desc",
+            "value": "module description"
+        },
+        {
+            "name": "ability_desc",
+            "value": "description"
+        },
+        {
+            "name": "ability_label",
+            "value": "InkAuth"
+        },
+        {
+            "name": "grid_title_label",
+            "value": "title"
+        },
+        {
+            "name": "adaptive_layout",
+            "value": "adaptive layout"
+        },
+        {
+            "name": "system_cap",
+            "value": "system capabilities"
+        },
+        {
+            "name": "responsive_layout",
+            "value": "responsive layout"
+        },
+        {
+            "name": "location_cap_invalid",
+            "value": "This device does not have the system capability of location service"
+        },
+        {
+            "name": "location_cap_valid",
+            "value": "This device has the system capability of location service"
+        },
+        {
+            "name": "camera_permission_reason",
+            "value": "Camera access is required to scan QR codes for adding authenticators"
+        },
+        {
+            "name": "privacy_window_permission_reason",
+            "value": "Used to protect app content and prevent screen capture"
+        },
+        {
+            "name": "access_biometric_permission_reason",
+            "value": "Used for biometric (fingerprint/face) unlock"
+        },
+        {
+            "name": "app_name",
+            "value": "InkAuth"
+        },
+        {
+            "name": "settings",
+            "value": "Settings"
+        },
+        {
+            "name": "language",
+            "value": "Language"
+        },
+        {
+            "name": "language_system",
+            "value": "Follow system"
+        },
+        {
+            "name": "language_zh",
+            "value": "中文"
+        },
+        {
+            "name": "language_en",
+            "value": "English"
+        },
+        {
+            "name": "general",
+            "value": "General"
+        },
+        {
+            "name": "security",
+            "value": "Security"
+        },
+        {
+            "name": "appearance",
+            "value": "Appearance"
+        },
+        {
+            "name": "backup_reminder",
+            "value": "Backup reminder"
+        },
+        {
+            "name": "auto_backup",
+            "value": "Automatic backup"
+        },
+        {
+            "name": "tap_to_copy",
+            "value": "Tap to copy"
+        },
+        {
+            "name": "skip_to_next",
+            "value": "Skip to next"
+        },
+        {
+            "name": "show_uncategorized",
+            "value": "Show uncategorized"
+        },
+        {
+            "name": "reset_copy_count",
+            "value": "Reset copy counts"
+        },
+        {
+            "name": "password",
+            "value": "Password"
+        },
+        {
+            "name": "biometric_unlock",
+            "value": "Biometric unlock"
+        },
+        {
+            "name": "timeout",
+            "value": "Timeout"
+        },
+        {
+            "name": "tap_to_reveal",
+            "value": "Tap to reveal"
+        },
+        {
+            "name": "allow_screenshots",
+            "value": "Allow screenshots"
+        },
+        {
+            "name": "theme",
+            "value": "Theme"
+        },
+        {
+            "name": "view_mode",
+            "value": "View mode"
+        },
+        {
+            "name": "code_group",
+            "value": "Code grouping"
+        },
+        {
+            "name": "show_usernames",
+            "value": "Show usernames"
+        },
+        {
+            "name": "about",
+            "value": "About"
+        },
+        {
+            "name": "icon_packs",
+            "value": "Icon packs"
+        },
+        {
+            "name": "categories",
+            "value": "Categories"
+        },
+        {
+            "name": "import_from_apps",
+            "value": "Import from apps"
+        },
+        {
+            "name": "get_icon_packs",
+            "value": "Get icon packs"
+        },
+        {
+            "name": "import_icon_pack",
+            "value": "Import icon pack"
+        },
+        {
+            "name": "main_menu",
+            "value": "Main menu"
+        },
+        {
+            "name": "manage_categories",
+            "value": "Manage categories"
+        },
+        {
+            "name": "backup",
+            "value": "Backup"
+        },
+        {
+            "name": "more",
+            "value": "More"
+        },
+        {
+            "name": "all",
+            "value": "All"
+        },
+        {
+            "name": "uncategorized",
+            "value": "Uncategorized"
+        },
+        {
+            "name": "back",
+            "value": "Back"
+        },
+        {
+            "name": "about_summary",
+            "value": "A free and open-source two-factor authenticator with TOTP / HOTP / Steam / Yandex / mOTP, encrypted backups, and multi-app import."
+        },
+        {
+            "name": "about_attribution",
+            "value": "InkAuth is a HarmonyOS / ArkTS port based on the open-source Stratum project (original author jmh). It is not affiliated with or an official release of the upstream project."
+        },
+        {
+            "name": "about_link_source",
+            "value": "InkAuth source"
+        },
+        {
+            "name": "about_link_upstream",
+            "value": "Upstream Stratum"
+        },
+        {
+            "name": "about_link_iconpacks",
+            "value": "Compatible icon packs (upstream)"
+        },
+        {
+            "name": "about_link_license",
+            "value": "License (GPL-3.0)"
+        }
+    ]
+}

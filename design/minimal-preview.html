@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>InkAuth 极简方向对比</title>
+<style>
+  body { margin: 0; background: #ECEAF1; font-family: system-ui, 'PingFang SC', 'Microsoft YaHei', sans-serif; color: #1B2A4A; }
+  h1 { text-align: center; font-size: 22px; font-weight: 600; padding: 28px 0 4px; }
+  p.sub { text-align: center; font-size: 13px; color: #6E7686; margin: 0 0 24px; }
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(340px, 480px)); gap: 24px; justify-content: center; padding: 0 24px 48px; }
+  .card { background: #F2F1F6; border-radius: 20px; padding: 28px; text-align: center; }
+  .card h2 { font-size: 15px; font-weight: 600; margin: 18px 0 4px; }
+  .card p { font-size: 12px; color: #6E7686; margin: 0; line-height: 1.6; }
+  .main { width: 320px; height: 320px; }
+  .sizes { display: flex; align-items: flex-end; justify-content: center; gap: 22px; margin-top: 16px; }
+  .sizes span { font-size: 10px; color: #9AA1AE; display: block; margin-top: 6px; }
+  .sizes > div { text-align: center; }
+</style>
+</head>
+<body>
+<h1>InkAuth · 极简方向</h1>
+<p class="sub">同一套「墨滴 = 盾」几何，四种减法</p>
+<div class="grid">
+
+  <!-- A 纯墨滴盾 -->
+  <div class="card">
+    <svg class="main" viewBox="-300 -320 600 640">
+      <path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/>
+    </svg>
+    <h2>A · 纯墨滴盾</h2>
+    <p>一个形状说完全部：墨滴轮廓即盾牌。<br>零装饰，零渐变，48px 下依然是一个清晰的"墨点"。</p>
+    <div class="sizes">
+      <div><svg width="96" height="96" viewBox="-300 -320 600 640"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/></svg><span>96</span></div>
+      <div><svg width="64" height="64" viewBox="-300 -320 600 640"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/></svg><span>64</span></div>
+      <div><svg width="48" height="48" viewBox="-300 -320 600 640"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/></svg><span>48</span></div>
+    </div>
+  </div>
+
+  <!-- B 圆点密码 -->
+  <div class="card">
+    <svg class="main" viewBox="-300 -320 600 640">
+      <path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/>
+      <circle cx="-72" cy="0" r="17" fill="#F2F1F6"/>
+      <circle cx="0" cy="0" r="17" fill="#F2F1F6"/>
+      <circle cx="72" cy="0" r="17" fill="#F2F1F6"/>
+    </svg>
+    <h2>B · 圆点密码</h2>
+    <p>纯墨滴盾 + 三个负空间圆点（隐藏的验证码）。<br>唯一保留的"认证"符号，仍只有一个颜色一个主体。</p>
+    <div class="sizes">
+      <div><svg width="96" height="96" viewBox="-300 -320 600 640"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/><g fill="#F2F1F6"><circle cx="-72" cy="0" r="17"/><circle cx="0" cy="0" r="17"/><circle cx="72" cy="0" r="17"/></g></svg><span>96</span></div>
+      <div><svg width="64" height="64" viewBox="-300 -320 600 640"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/><g fill="#F2F1F6"><circle cx="-72" cy="0" r="17"/><circle cx="0" cy="0" r="17"/><circle cx="72" cy="0" r="17"/></g></svg><span>64</span></div>
+      <div><svg width="48" height="48" viewBox="-300 -320 600 640"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/><g fill="#F2F1F6"><circle cx="-72" cy="0" r="17"/><circle cx="0" cy="0" r="17"/><circle cx="72" cy="0" r="17"/></g></svg><span>48</span></div>
+    </div>
+  </div>
+
+  <!-- C 倒计时环 + 墨滴 -->
+  <div class="card">
+    <svg class="main" viewBox="-330 -330 660 660">
+      <path d="M 41.7 -297.1 A 300 300 0 1 0 278.2 -112.4" fill="none" stroke="#1B2A4A" stroke-width="16" stroke-linecap="round"/>
+      <g transform="scale(0.56)">
+        <path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/>
+      </g>
+    </svg>
+    <h2>C · 倒计时环</h2>
+    <p>细环缺口（30 秒倒计时）环抱小墨滴。<br>最"authenticator"的一个，元素也只有线 + 点。</p>
+    <div class="sizes">
+      <div><svg width="96" height="96" viewBox="-330 -330 660 660"><path d="M 41.7 -297.1 A 300 300 0 1 0 278.2 -112.4" fill="none" stroke="#1B2A4A" stroke-width="16" stroke-linecap="round"/><g transform="scale(0.56)"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/></g></svg><span>96</span></div>
+      <div><svg width="64" height="64" viewBox="-330 -330 660 660"><path d="M 41.7 -297.1 A 300 300 0 1 0 278.2 -112.4" fill="none" stroke="#1B2A4A" stroke-width="16" stroke-linecap="round"/><g transform="scale(0.56)"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/></g></svg><span>64</span></div>
+      <div><svg width="48" height="48" viewBox="-330 -330 660 660"><path d="M 41.7 -297.1 A 300 300 0 1 0 278.2 -112.4" fill="none" stroke="#1B2A4A" stroke-width="16" stroke-linecap="round"/><g transform="scale(0.56)"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/></g></svg><span>48</span></div>
+    </div>
+  </div>
+
+  <!-- D 钥匙孔负空间 -->
+  <div class="card">
+    <svg class="main" viewBox="-300 -320 600 640">
+      <path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/>
+      <circle cx="0" cy="-50" r="52" fill="#F2F1F6"/>
+      <path d="M -26 -8 L 26 -8 L 42 112 L -42 112 Z" fill="#F2F1F6"/>
+    </svg>
+    <h2>D · 钥匙孔</h2>
+    <p>墨滴盾中央一个负空间钥匙孔。<br>安全隐喻最直白，形状语言仍然只有一正一负。</p>
+    <div class="sizes">
+      <div><svg width="96" height="96" viewBox="-300 -320 600 640"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/><g fill="#F2F1F6"><circle cx="0" cy="-50" r="52"/><path d="M -26 -8 L 26 -8 L 42 112 L -42 112 Z"/></g></svg><span>96</span></div>
+      <div><svg width="64" height="64" viewBox="-300 -320 600 640"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/><g fill="#F2F1F6"><circle cx="0" cy="-50" r="52"/><path d="M -26 -8 L 26 -8 L 42 112 L -42 112 Z"/></g></svg><span>64</span></div>
+      <div><svg width="48" height="48" viewBox="-300 -320 600 640"><path d="M 0 -252 C 48 -204 98 -164 140 -132 C 176 -104 188 -80 188 -48 C 188 70 128 170 0 248 C -128 170 -188 70 -188 -48 C -188 -80 -176 -104 -140 -132 C -98 -164 -48 -204 0 -252 Z" fill="#1B2A4A"/><g fill="#F2F1F6"><circle cx="0" cy="-50" r="52"/><path d="M -26 -8 L 26 -8 L 42 112 L -42 112 Z"/></g></svg><span>48</span></div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

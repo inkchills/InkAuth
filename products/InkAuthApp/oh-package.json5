@@ -1,0 +1,14 @@
+{
+  name: "inkauth",
+  version: "1.0.0",
+  description: "InkAuth - HarmonyOS open-source 2FA authenticator (GPLv3).",
+  main: "",
+  author: "inkchills",
+  license: "GPL-3.0-only",
+  dependencies: {
+    "@ohos-rs/argon2": "^0.1.3",
+    "@ohos/adaptivelayout": "file:../../features/adaptiveLayout",
+    "@ohos/responsivelayout": "file:../../features/responsiveLayout",
+    "@ohos/common": "file:../../common",
+  },
+}

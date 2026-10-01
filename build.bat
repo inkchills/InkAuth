@@ -1,0 +1,1 @@
+"C:\Program Files\huawei\DevEco Studio\tools\node\node.exe" "C:\Program Files\huawei\DevEco Studio\tools\hvigor\bin\hvigorw.js" clean --mode module -p product=default assembleHap --analyze=normal --parallel --incremental --daemon > build.log 2>&1

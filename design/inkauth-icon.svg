@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="rimGrad" x1="0.75" y1="0" x2="0.25" y2="1">
+      <stop offset="0" stop-color="#4A5E90"/>
+      <stop offset="0.5" stop-color="#28395F"/>
+      <stop offset="1" stop-color="#16223E"/>
+    </linearGradient>
+    <linearGradient id="faceGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2F4370"/>
+      <stop offset="0.55" stop-color="#1D2C50"/>
+      <stop offset="1" stop-color="#131F3A"/>
+    </linearGradient>
+    <linearGradient id="recessGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F1930"/>
+      <stop offset="1" stop-color="#1B2A4C"/>
+    </linearGradient>
+    <linearGradient id="hexGrad" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#41568C"/>
+      <stop offset="1" stop-color="#1B2A4A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="#F2F1F6"/>
+
+  <!-- broken countdown ring, gap at top-right -->
+  <path d="M 557.9 185.2 A 330 330 0 1 0 818.0 388.4"
+        fill="none" stroke="#1B2A4A" stroke-width="36" stroke-linecap="round"/>
+
+  <!-- hexagon chip sitting in the gap -->
+  <polygon points="715.2,196.9 768.9,227.9 768.9,289.9 715.2,320.9 661.5,289.9 661.5,227.9" fill="#131E37"/>
+  <polygon points="715.2,189.9 768.9,220.9 768.9,282.9 715.2,313.9 661.5,282.9 661.5,220.9" fill="url(#hexGrad)"/>
+
+  <!-- ink-drop shield, slightly tilted -->
+  <g transform="translate(512 512) rotate(-8)">
+    <ellipse cx="0" cy="292" rx="150" ry="16" fill="#1B2A4A" opacity="0.08"/>
+    <path d="M 0 -252
+      C 48 -204 98 -164 140 -132
+      C 176 -104 188 -80 188 -48
+      C 188 70 128 170 0 248
+      C -128 170 -188 70 -188 -48
+      C -188 -80 -176 -104 -140 -132
+      C -98 -164 -48 -204 0 -252 Z"
+      fill="url(#rimGrad)"/>
+    <path d="M 0 -252
+      C 48 -204 98 -164 140 -132
+      C 176 -104 188 -80 188 -48
+      C 188 70 128 170 0 248
+      C -128 170 -188 70 -188 -48
+      C -188 -80 -176 -104 -140 -132
+      C -98 -164 -48 -204 0 -252 Z"
+      transform="scale(0.86)" fill="url(#faceGrad)"/>
+    <path d="M 0 -252
+      C 48 -204 98 -164 140 -132
+      C 176 -104 188 -80 188 -48
+      C 188 70 128 170 0 248
+      C -128 170 -188 70 -188 -48
+      C -188 -80 -176 -104 -140 -132
+      C -98 -164 -48 -204 0 -252 Z"
+      transform="scale(0.70)" fill="url(#recessGrad)"/>
+    <!-- soft inner highlight along upper-left rim -->
+    <path d="M -146 -80 C -124 -148 -76 -202 -12 -242"
+          fill="none" stroke="#8FA3D6" stroke-width="12" stroke-linecap="round" opacity="0.28"/>
+    <!-- three groups of three dots: hidden code digits -->
+    <g fill="#E9EDF7">
+      <circle cx="-116" cy="-30" r="9.5"/><circle cx="-90" cy="-30" r="9.5"/><circle cx="-64" cy="-30" r="9.5"/>
+      <circle cx="-26" cy="-14" r="9.5"/><circle cx="0" cy="-14" r="9.5"/><circle cx="26" cy="-14" r="9.5"/>
+      <circle cx="64" cy="-30" r="9.5"/><circle cx="90" cy="-30" r="9.5"/><circle cx="116" cy="-30" r="9.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,224 @@
+{
+    "string": [
+        {
+            "name": "module_desc",
+            "value": "module description"
+        },
+        {
+            "name": "ability_desc",
+            "value": "description"
+        },
+        {
+            "name": "ability_label",
+            "value": "InkAuth"
+        },
+        {
+            "name": "grid_title_label",
+            "value": "title"
+        },
+        {
+            "name": "adaptive_layout",
+            "value": "adaptive layout"
+        },
+        {
+            "name": "system_cap",
+            "value": "system capabilities"
+        },
+        {
+            "name": "responsive_layout",
+            "value": "responsive layout"
+        },
+        {
+            "name": "location_cap_invalid",
+            "value": "This device does not have the system capability of location service"
+        },
+        {
+            "name": "location_cap_valid",
+            "value": "This device has the system capability of location service"
+        },
+        {
+            "name": "camera_permission_reason",
+            "value": "需要使用相机来扫描二维码以添加认证器"
+        },
+        {
+            "name": "privacy_window_permission_reason",
+            "value": "用于保护应用内容安全，防止屏幕截取"
+        },
+        {
+            "name": "access_biometric_permission_reason",
+            "value": "用于生物识别（指纹/面部）解锁应用"
+        },
+        {
+            "name": "app_name",
+            "value": "InkAuth"
+        },
+        {
+            "name": "settings",
+            "value": "设置"
+        },
+        {
+            "name": "language",
+            "value": "语言"
+        },
+        {
+            "name": "language_system",
+            "value": "跟随系统"
+        },
+        {
+            "name": "language_zh",
+            "value": "中文"
+        },
+        {
+            "name": "language_en",
+            "value": "English"
+        },
+        {
+            "name": "general",
+            "value": "通用"
+        },
+        {
+            "name": "security",
+            "value": "安全"
+        },
+        {
+            "name": "appearance",
+            "value": "外观"
+        },
+        {
+            "name": "backup_reminder",
+            "value": "备份提醒"
+        },
+        {
+            "name": "auto_backup",
+            "value": "自动备份"
+        },
+        {
+            "name": "tap_to_copy",
+            "value": "点击复制"
+        },
+        {
+            "name": "skip_to_next",
+            "value": "自动跳转"
+        },
+        {
+            "name": "show_uncategorized",
+            "value": "显示未分类"
+        },
+        {
+            "name": "reset_copy_count",
+            "value": "重置复制次数"
+        },
+        {
+            "name": "password",
+            "value": "密码"
+        },
+        {
+            "name": "biometric_unlock",
+            "value": "使用生物识别解锁"
+        },
+        {
+            "name": "timeout",
+            "value": "超时时间"
+        },
+        {
+            "name": "tap_to_reveal",
+            "value": "点击查看"
+        },
+        {
+            "name": "allow_screenshots",
+            "value": "允许截图"
+        },
+        {
+            "name": "theme",
+            "value": "主题"
+        },
+        {
+            "name": "view_mode",
+            "value": "视图模式"
+        },
+        {
+            "name": "code_group",
+            "value": "验证码分组"
+        },
+        {
+            "name": "show_usernames",
+            "value": "显示用户名"
+        },
+        {
+            "name": "about",
+            "value": "关于"
+        },
+        {
+            "name": "icon_packs",
+            "value": "图标包"
+        },
+        {
+            "name": "categories",
+            "value": "分类"
+        },
+        {
+            "name": "import_from_apps",
+            "value": "从其他应用导入"
+        },
+        {
+            "name": "get_icon_packs",
+            "value": "获取图标包"
+        },
+        {
+            "name": "import_icon_pack",
+            "value": "导入图标包"
+        },
+        {
+            "name": "main_menu",
+            "value": "主菜单"
+        },
+        {
+            "name": "manage_categories",
+            "value": "管理分类"
+        },
+        {
+            "name": "backup",
+            "value": "备份"
+        },
+        {
+            "name": "more",
+            "value": "更多"
+        },
+        {
+            "name": "all",
+            "value": "全部"
+        },
+        {
+            "name": "uncategorized",
+            "value": "未分类"
+        },
+        {
+            "name": "back",
+            "value": "返回"
+        },
+        {
+            "name": "about_summary",
+            "value": "免费开源的双因素认证应用，支持 TOTP / HOTP / Steam / Yandex / mOTP，以及加密备份与多应用导入。"
+        },
+        {
+            "name": "about_attribution",
+            "value": "InkAuth 是基于开源项目 Stratum（原作者 jmh）的 HarmonyOS / ArkTS 移植，与上游项目无隶属关系，亦非官方版本。"
+        },
+        {
+            "name": "about_link_source",
+            "value": "InkAuth 源码"
+        },
+        {
+            "name": "about_link_upstream",
+            "value": "上游项目 Stratum"
+        },
+        {
+            "name": "about_link_iconpacks",
+            "value": "兼容图标包（上游资源）"
+        },
+        {
+            "name": "about_link_license",
+            "value": "许可证 (GPL-3.0)"
+        }
+    ]
+}

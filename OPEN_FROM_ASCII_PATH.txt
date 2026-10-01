@@ -1,0 +1,10 @@
+# DevEco / Cursor path
+
+Project real path (open this in DevEco):
+  D:\inkauth-dev\stratumauth-harmony
+
+Reason: HarmonyOS hvigor rejects paths containing Chinese characters (开发项目),
+which caused Run Configuration -> Module = [none] / "No module found".
+
+Old path is a junction only:
+  D:\01_开发项目\stratumauth-harmonyos\stratumauth-harmony

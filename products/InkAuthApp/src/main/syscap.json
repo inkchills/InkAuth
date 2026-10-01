@@ -1,0 +1,12 @@
+{
+    "devices": {
+        "general": ["phone"]
+    },
+    "development": {
+        "addedSysCaps": [
+            "SystemCapability.FileManagement.UserFileService.FolderSelection",
+            "SystemCapability.DistributedDataManager.Preferences.Core",
+            "SystemCapability.ArkUI.ArkUI.Full"
+        ]
+    }
+}

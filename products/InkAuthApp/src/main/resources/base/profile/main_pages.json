@@ -1,0 +1,15 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Intro",
+    "pages/Guide",
+    "pages/Settings",
+    "pages/About",
+    "pages/Categories",
+    "pages/IconPacks",
+    "pages/ImportSource",
+    "pages/AdaptiveIndex",
+    "pages/ResponsiveIndex",
+    "pages/SystemCapabilitiesIndex"
+  ]
+}

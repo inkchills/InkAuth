@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="rimGrad" x1="0.75" y1="0" x2="0.25" y2="1">
+      <stop offset="0" stop-color="#4A5E90"/>
+      <stop offset="0.5" stop-color="#28395F"/>
+      <stop offset="1" stop-color="#16223E"/>
+    </linearGradient>
+    <linearGradient id="faceGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2F4370"/>
+      <stop offset="0.55" stop-color="#1D2C50"/>
+      <stop offset="1" stop-color="#131F3A"/>
+    </linearGradient>
+    <linearGradient id="recessGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F1930"/>
+      <stop offset="1" stop-color="#1B2A4C"/>
+    </linearGradient>
+    <linearGradient id="hexGrad" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#41568C"/>
+      <stop offset="1" stop-color="#1B2A4A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1024" height="1024" fill="#F2F1F6"/>
+
+  <!-- broken countdown ring, gap at top-right -->
+  <path d="M 553.7 122.9 A 300 300 0 1 0 790.2 307.6"
+        fill="none" stroke="#1B2A4A" stroke-width="34" stroke-linecap="round"/>
+
+  <!-- hexagon chip sitting in the gap -->
+  <polygon points="696.7,134.6 745.2,162.6 745.2,218.6 696.7,246.6 648.2,218.6 648.2,162.6" fill="#131E37"/>
+  <polygon points="696.7,127.6 745.2,155.6 745.2,211.6 696.7,239.6 648.2,211.6 648.2,155.6" fill="url(#hexGrad)"/>
+
+  <!-- ink-drop shield, slightly tilted -->
+  <g transform="translate(512 400) rotate(-8)">
+    <ellipse cx="0" cy="292" rx="150" ry="16" fill="#1B2A4A" opacity="0.08"/>
+    <path id="shield" d="M 0 -252
+      C 48 -204 98 -164 140 -132
+      C 176 -104 188 -80 188 -48
+      C 188 70 128 170 0 248
+      C -128 170 -188 70 -188 -48
+      C -188 -80 -176 -104 -140 -132
+      C -98 -164 -48 -204 0 -252 Z"
+      fill="url(#rimGrad)"/>
+    <path d="M 0 -252
+      C 48 -204 98 -164 140 -132
+      C 176 -104 188 -80 188 -48
+      C 188 70 128 170 0 248
+      C -128 170 -188 70 -188 -48
+      C -188 -80 -176 -104 -140 -132
+      C -98 -164 -48 -204 0 -252 Z"
+      transform="scale(0.86)" fill="url(#faceGrad)"/>
+    <path d="M 0 -252
+      C 48 -204 98 -164 140 -132
+      C 176 -104 188 -80 188 -48
+      C 188 70 128 170 0 248
+      C -128 170 -188 70 -188 -48
+      C -188 -80 -176 -104 -140 -132
+      C -98 -164 -48 -204 0 -252 Z"
+      transform="scale(0.70)" fill="url(#recessGrad)"/>
+    <!-- soft inner highlight along upper-left rim -->
+    <path d="M -146 -80 C -124 -148 -76 -202 -12 -242"
+          fill="none" stroke="#8FA3D6" stroke-width="12" stroke-linecap="round" opacity="0.28"/>
+    <!-- three groups of three dots: hidden code digits -->
+    <g fill="#E9EDF7">
+      <circle cx="-116" cy="-30" r="9.5"/><circle cx="-90" cy="-30" r="9.5"/><circle cx="-64" cy="-30" r="9.5"/>
+      <circle cx="-26" cy="-14" r="9.5"/><circle cx="0" cy="-14" r="9.5"/><circle cx="26" cy="-14" r="9.5"/>
+      <circle cx="64" cy="-30" r="9.5"/><circle cx="90" cy="-30" r="9.5"/><circle cx="116" cy="-30" r="9.5"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <text x="512" y="808" text-anchor="middle"
+        font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Arial,sans-serif"
+        font-size="106" font-weight="800" letter-spacing="2" fill="#1B2A4A">Ink-Auth</text>
+  <text x="512" y="874" text-anchor="middle"
+        font-family="'Segoe UI','PingFang SC','Microsoft YaHei',Arial,sans-serif"
+        font-size="29" font-weight="600" letter-spacing="7.5" fill="#6E7686">SECURITY &amp; VERIFICATION</text>
+</svg>

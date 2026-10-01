@@ -1,0 +1,5 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'>
+    <path d='M12,2l-5.5,9h11z' fill='@android:color/white' />
+    <path d='M17.5,13a4.5,4.5 0,1 0,0 9a4.5,4.5 0,1 0,0 -9' fill='@android:color/white' />
+    <path d='M3,13.5h8v8H3z' fill='@android:color/white' />
+</svg>
